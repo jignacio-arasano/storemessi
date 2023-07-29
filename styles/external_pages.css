@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.log{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/HD-wallpaper-l10-messi-argentina-cr7-cup-leo-messi-mundial-nicopiazzo-rusia-seleccion-world.jpg);
+    
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+    align-content: baseline;
+}
+.sign{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/messidef.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+    align-content: baseline;
+}
+div.cont{
+    width: 20%;
+    height: 30%;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+    align-content: baseline;
+
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+span{
+    font-size: 2em;
+    background: linear-gradient(90deg, rgba(58,132,180,1) 21%, rgba(255,255,255,1) 53%, rgba(58,132,180,1) 85%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 2em;
+    font-weight: bold;
+    color: white; /* Color del texto */
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    display: flex;
+    align-items: center;
+}
+h1{
+    color: aliceblue;
+}
+label{
+    color: aliceblue;
+}
+button{
+    background-color: blue;
+    color: aliceblue;
+    padding: 0.5em;
+    border-radius: 20%;
+}
+button:hover{
+    background-color: rgb(0, 0, 43);
+    color: aliceblue;
+    font-weight: 400;
+}
+img{
+    width: 2em;
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    transform: transform(0.4s ease-out);
+}
+img:hover{
+    transform: scale(1.5);
+
+}
+
